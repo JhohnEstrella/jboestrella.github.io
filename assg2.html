@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="assg2.css">
+    <script src="assg2.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Income Tax Calculator</h1>
+
+        <br><br>
+
+        <label for="userNumber">Enter your income:</label>
+        <input type="number" id="userNumber" placeholder="Income Amount">
+
+        <br><br>
+
+        <label for="taxedIncome">Calculated Tax:</label>
+        <input type="text" id="taxedIncome" placeholder="Tax Amount" readonly>
+
+        <br><br>
+
+        <button id="calculateButton" onclick="incomeTax()">Calculate Tax</button>
+    </div>
+</body>
+</html>
