@@ -10,6 +10,12 @@ nav {
     flex-wrap: wrap;
 }
 
+.link-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 nav a {
     flex: 1;
     display: block;
