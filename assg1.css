@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.link {
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    max-width: 300px;
+}
+
+.link:hover {
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .link {
+        padding: 10px;
+        font-size: 16px;
+    }
+}

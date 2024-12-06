@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assg #1 - Conversion Tool</title>
+    <link rel="stylesheet" href="assg1.css">
+    <script src="assg1.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversion Tool</h1>
+        
+        <label for="conversionType">Choose conversion type:</label>
+        <select id="conversionType">
+            <option value="FtoC">Fahrenheit to Celsius</option>
+            <option value="CtoF">Celsius to Fahrenheit</option>
+            <option value="MtoF">Meters to Feet</option>
+            <option value="FtoM">Feet to Meters</option>
+        </select>
+
+        <br><br>
+
+        <label for="inputValue">Enter value:</label>
+        <input type="number" id="inputValue" placeholder="Value">
+
+        <br><br>
+
+        <button onclick="convert()">Convert</button>
+
+        <h2 id="result"></h2>
+    </div>
+</body>
+</html>
+
