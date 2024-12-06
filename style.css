@@ -7,7 +7,10 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #333;
-    flex-wrap: wrap;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
 }
 
 .link-container {
@@ -33,20 +36,10 @@ nav a:hover {
 
 h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 p {
     text-align: center;
     margin-top: 10px;
-}
-
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
-    
-    nav a {
-        min-width: 100%;
-    }
 }
